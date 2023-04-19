@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Acesso ao Sistema </h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="login" style="display: flex; justify-content: right;">Login</label></td>
+                    <td><input type="text" id="login"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label for="senha" style="display: flex; justify-content: right;">Senha</label></td>
+                    <td><input type="password" id="senha"></td>
+                    <td> <span>(max. 8 caracteres)</span> </td>
+                </tr>
+                <tr>
+                    <td><label for="confSenha" style="display: flex; justify-content: right;">Confirmar Senha</label></td>
+                    <td> <input type="password" id="confSenha"></td>
+                    <td> <span>(max. 8 caracteres)</span> </td>
+                </tr> 
+                <tr>
+                    <td></td>
+                    <td style="display: flex; justify-content: center;"> <input type="button" value="entrar" onclick="validar();"> <input type="reset" value="limpar"> </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
